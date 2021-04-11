@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-lichess-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:FMXMOZ/nodejs-lichess-api.git",
+  "author": "Guimarães Mahota <guimaraesmahota@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "nodemon .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ndjson-to-json-text": "^1.0.2",
+    "passport": "^0.4.1",
+    "passport-lichess": "^1.1.0"
+  }
+}
